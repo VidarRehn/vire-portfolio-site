@@ -158,7 +158,7 @@
 
     .main {
         @include flex (column, space-around, flex-start);
-        background-image: url("images/background.png");
+        background-image: url(../images/background.png);
         background-size:280% 100%;
         background-repeat: no-repeat;
         background-position: 60% 70%;
