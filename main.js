@@ -1,0 +1,10 @@
+
+let hamburger = document.querySelector(".hamburger");
+let mainBody = document.querySelector(".main");
+let navBar = document.querySelector(".nav");
+
+hamburger.addEventListener("click", ()=>{
+    hamburger.classList.toggle("change");
+    mainBody.classList.toggle("hide");
+    navBar.classList.toggle("hide");
+})
