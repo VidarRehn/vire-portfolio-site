@@ -254,16 +254,29 @@
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
+  padding: 20px;
   background-image: url(../images/background.png);
   background-size: 280% 100%;
   background-repeat: no-repeat;
   background-position: 60% 70%;
-  padding: 20px;
+  position: relative;
+}
+
+@media (min-width: 600px) {
+  .wrapper .main .intro {
+    margin-left: 10%;
+  }
 }
 
 .wrapper .main .intro h1 {
   font-size: 45px;
   font-weight: lighter;
+}
+
+@media (min-width: 600px) {
+  .wrapper .main .intro h1 {
+    font-size: 55px;
+  }
 }
 
 .wrapper .main .intro span {
@@ -308,10 +321,26 @@
           align-items: flex-start;
 }
 
+@media (min-width: 600px) {
+  .wrapper .main .profile {
+    margin-right: 10%;
+  }
+}
+
 .wrapper .main .profile .profile-box {
   height: 100px;
-  width: 300px;
+  width: 100%;
   border-radius: 10px;
   background-color: white;
+}
+
+.wrapper .main .profile img {
+  width: 280px;
+}
+
+@media (min-width: 600px) {
+  .wrapper .main .profile img {
+    width: 400px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
