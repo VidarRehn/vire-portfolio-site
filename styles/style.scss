@@ -161,6 +161,9 @@
 
     .main {
         @include flex (column, space-around, flex-start);
+        @media (min-width: 1000px) {
+            @include flex (row, space-around, flex-start);   
+        }
         padding: 20px;
         background-image: url(../images/background.png);
         background-size:280% 100%;
@@ -210,7 +213,7 @@
             align-self: flex-end;
             @include flex (column, space-around, flex-start);
             @media (min-width: 600px) {
-                margin-right: 10%;         
+                margin-right: 10%;      
             }
 
             .profile-box {
