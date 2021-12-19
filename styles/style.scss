@@ -25,6 +25,10 @@
 
         img {
             opacity: 0.8;
+            width: 50px;
+            @media (min-width: 600px) {
+                width: 80px;
+            }
         }
 
         .nav {
