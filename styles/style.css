@@ -331,6 +331,7 @@
 .wrapper .main .profile {
   -ms-flex-item-align: end;
       align-self: flex-end;
+  margin-bottom: 40px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -352,7 +353,7 @@
 }
 
 .wrapper .main .profile .profile-box {
-  height: 100px;
+  height: 200px;
   width: 100%;
   border-radius: 10px;
   background-color: white;
@@ -366,5 +367,49 @@
   .wrapper .main .profile img {
     width: 400px;
   }
+}
+
+.wrapper .footer {
+  height: 100px;
+  background-color: #2F4858;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrapper .footer div {
+  width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrapper .footer div a {
+  text-decoration: none;
+  color: white;
+}
+
+.wrapper .footer div a:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 /*# sourceMappingURL=style.css.map */

@@ -211,13 +211,14 @@
 
         .profile {
             align-self: flex-end;
+            margin-bottom: 40px;
             @include flex (column, space-around, flex-start);
             @media (min-width: 600px) {
                 margin-right: 10%;      
             }
 
             .profile-box {
-                height: 100px;
+                height: 200px;
                 width: 100%;
                 border-radius: 10px;
                 background-color: white;
@@ -227,6 +228,26 @@
                 width: 280px;
                 @media (min-width: 600px) {
                     width: 400px;           
+                }
+            }
+        }
+    }
+
+    .footer {
+        height: 100px;
+        background-color: #2F4858;
+        @include flex (row, center, center);
+
+        div {
+            width: 300px;
+            @include flex (row, space-around, center);
+
+            a {
+                text-decoration: none;
+                color: white;
+
+                &:hover {
+                    transform: scale(1.1);
                 }
             }
         }
